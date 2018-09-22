@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Ally Code Challenge</title>
+</head>
+<body>
+
+<nav>
+	<button id="mobile-menu">MENU</button>
+	<div id="side-nav">
+		<div>
+			<img src="assets/img/urbank.png" alt="urbank logo">
+			<button id="close-menu">CLOSE</button>
+		</div>
+		<ul>
+			<li><a href="#">home<img src="assets/img/arrow.svg" alt="arrow icon"></a></li>
+			<li><a href="#">employee<img src="assets/img/arrow.svg" alt="arrow icon"></a></li>
+			<li><a href="#">company<img src="assets/img/arrow.svg" alt="arrow icon"></a></li>
+			<li><a href="#">services<img src="assets/img/arrow.svg" alt="arrow icon"></a></li>
+			<li><a href="#">contact<img src="assets/img/arrow.svg" alt="arow icon"></a></li>
+		</ul>
+	</div>	
+	<picture>
+	  	<source media="(min-width: 780px)" srcset="assets/img/urbank@2x.png">
+		<img id="img" src="assets/img/urbank.png" alt="urbank logo">
+	</picture>
+	<ul id="nav">
+		<li><a href="#">home</a></li>
+		<li><a href="#">employee</a></li>
+		<li><a class="selected" href="#">company</a></li>
+		<li><a href="#">services</a></li>
+		<li><a href="#">contact</a></li>
+	</ul>
+</nav>
+
+
+<main>
+	<section class="hide-modal" id="modal-bkgrnd"></section>
+		<section class="hide-modal" id="modal">
+			<h1>Sign In To Your Account</h1>
+			<img id="close-modal" src="assets/img/times.png" alt="close icon">
+			<form>
+				<label for="username"><b>Username</b></label>
+	    		<input type="text" name="username" required>
+	    		<br>
+			    <label for="psw"><b>Password</b></label>
+			    <input type="password" name="psw" required>
+			    <button id="modal-login-btn">Login</button>
+			</form>
+	</section>
+	
+	<section class="sec-1">
+		<h1>Best Bank Ever!</h1>
+		<p>Pellentesque habitant morbi tristique senectus et netus et <u>malesuada</u> fames ac turips egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris <u>placerat</u> eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</p>
+	</section>
+	<section class="sec-2">
+		<h3><b>Reasons We're Awesome:</b></h3>
+		<ul>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Aliquam tincidunt mauris eu risus.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Lorem ipsum dolor sit amet.</li>
+			<li>Vestibulum auctor dapibus neque.</li>
+		</ul>
+	</section>
+	<article>
+		<section class="sec-3">
+			<h3><b>Amazing Mobile Info</b></h3>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turips egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+		</section>
+		<picture>
+			<source media="(min-width: 800px)" srcset="assets/img/iphone@2x.png">
+			<img src="assets/img/iphone.png" alt="iphone icon">
+		</picture>
+	</article>
+	<section class="sec-4">
+		<h1>Rates<span><svg height="50" width="20">
+	  	<line x1="10" y1="0" x2="10" y2="50" style="stroke:rgb(0,0,0);stroke-width:1" />
+		</svg></span><b>Check them out.</b></h1>
+	</section>
+	<table id="table"></table>
+	<section class="push"></section>
+</main>
+<section class="sec-5">
+	<button id="login-btn">Login</button>
+	<section class="wrap">
+		 <ul class="tabs group">
+    		<li><a id="tab-one" class="active" href="#/one">News</a></li>
+    		<li><a id="tab-two" href="#/two">Archive</a></li>
+  		</ul>
+	</section>
+	<aside id="content">
+	  <section id="sec-one">
+	  	<section>	
+		  	<h1>Lorem ipsum dolor</h1>
+		    <p>
+		     Pellentesque habitant morbi tristique senectus et netus et fames ac turips
+		    </p>
+		</section>
+	    <section>	
+		  	<h1>Lorem ipsum dolor</h1>
+		    <p>
+		     Pellentesque habitant morbi tristique senectus et netus et fames ac turips
+		    </p>
+		</section>
+	    <section>	
+		  	<h1>Lorem ipsum dolor</h1>
+		    <p>
+		     Pellentesque habitant morbi tristique senectus et netus et fames ac turips
+		    </p>
+		</section>
+	  </section>
+	    
+	  <section id="sec-two">
+	    	<h1>Lorem ipsum dolor</h1>
+	    	<h1>Lorem ipsum dolor</h1>
+	    	<h1>Lorem ipsum dolor</h1>
+	    	<h1>Lorem ipsum dolor</h1>
+	    	<h1>Lorem ipsum dolor</h1>
+	    	<h1>Lorem ipsum dolor</h1>
+	    	<h1>Lorem ipsum dolor</h1>
+	    	<h1>Lorem ipsum dolor</h1>
+	  </section>
+	</aside>
+ </section>
+	<footer>
+		<ul id="copy"><li>&#169; 2014 URBank</li></ul>
+		<ul id="footer-menu">
+			<li><a href="#">home</a></li>
+			<li><a href="#">employee</a></li>
+			<li><a href="#">company</a></li>
+			<li><a href="#">services</a></li>
+			<li><a href="#">contact</a></li>
+		</ul>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
+
